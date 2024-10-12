@@ -1,0 +1,243 @@
+“ssh-keygen
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd ..
+cd repogit/
+git clone git@github.com:upszot/UTN-FRA_SO_Examenes.git
+sudo git clone git@github.com:upszot/UTN-FRA_SO_Examenes.git
+sudo git clone git@github.com:asegg/UTNFRA_SO_1P2C_2024_-Seggiaro-.git
+ls -l
+cd ..
+cd..
+cd
+cd repogit/
+git clone git@github.com:upszot/UTN-FRA_SO_Examenes.git
+git clone git@github.com:asegg/UTNFRA_SO_1P2C_2024_-Seggiaro-.git
+ls -l
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh ~/.bashrc && history -a
+source ~/.bashrc && history -a
+tree UTNFRA_SO_1P2C_2024_-Seggiaro-
+cd UTNFRA_SO_1P2C_2024_-Seggiaro-
+cd RTA_SCRIPT_Examen_20241011/
+vim Punto_A.sh
+git add .
+git commin -m "Primer punto"
+git commit -m "Primer punto"
+git config --global user.email "aaseggiaro@gmail.com"
+git config  --global user.name "asegg"
+git status
+cat
+cd repogit/
+ls -l
+cd UTN-FRA_SO_Examenes/
+cd ..
+cd UTNFRA_SO_1P2C_2024_-Seggiaro-/
+ls -l
+cd RTA_SCRIPT_Examen_20241011/
+ls -l
+tree
+vim Punto_A.sh
+git add .
+git commit -m "Primer punto"
+git push
+cd ..
+tree RTA_SCRIPT_Examen_20241011
+cd Punto_A.sh
+cd RTA_SCRIPT_Examen_20241011/
+vim Punto_A.sh
+chmod 764 Punto_A.sh
+ls -l
+./Punto_A.sh
+tree Punto_A.sh
+cd Punto_A.sh
+cat Punto_A.sh
+cd ..
+cd RTA_SCRIPT_Examen_20241011/
+vim Punto_B.sh
+cd ..
+sudo fdisk -l
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_-Seggiaro-/
+cd RTA_SCRIPT_Examen_20241011/
+vim Punto_B.sh
+chmod 764 Punto_B.sh
+git add .
+git commit -m 'Punto 2'
+git status
+ls -l
+git commint -t 'Punto b'
+git commit -t 'Punto B'
+git push
+vim Punto_C.sh
+vim Punto_c.sh
+vim Punto_C.sh
+whoiam
+whoami
+vim Punto_C.sh
+chmod 764 Punto_C.sh
+ls -l
+git add .
+git commit -m 'Hasta punto C'
+git push
+vim Punto_D.sh
+chmod 764 Punto_D.sh
+ls -l
+git add .
+git clonne -m '¨Termiando punto D'
+git push
+git add .
+git commit -m 'Punto D'
+git push
+cd ..
+cd RTA_ARCHIVOS_Examen_20241011/
+cd ..
+cd UTNFRA_SO_1P2C_2024_-Seggiaro-/
+cd RTA_ARCHIVOS_Examen_20241011/
+cat > Filtro_Basico.txt
+cd repogit/
+ls -l
+cd UTNFRA_SO_1P2C_2024_-Seggiaro-/
+ls -l
+cd RTA_SCRIPT_Examen_20241011/
+/proc/meminfo
+sudo /proc/meminfo
+cat /proc/meminfo | grep MemTotal
+cd ..
+cd RTA_SCRIPT_Examen_20241011/
+vim Punto_E.s
+vim Punto_E.sh
+cat /proc/meminfo | grep MemoTotal >> Filtro_Basico.txt
+ls -l
+rm Filtro_basico.txt
+rm Filtro_Basico.txt
+ls -l
+vim Punto_E.sh
+cat /proc/meminfo | grep MemoTotal > ./RTA_ARCHIVOS_Examen_Filtro_Basico.txt
+ls -l
+rm RTA_ARCHIVOS_Examen_Filtro_Basico.txt
+vim Punto_E.sh
+sudo cat dmidecode -t chassis > Filtro_Basico.txt
+sudo dmidecode -t chassis >> Filtro_Basico.txt
+ls -l
+cat Filtro_Basico.txt
+rm Filtro_Basico.txt
+vim Punto_E.sh
+chmod 764 Punto_E.sh
+ls -l
+git add .
+git commit -m 'Punto E'
+git push
+cd ..
+cd RTA_ARCHIVOS_Examen_20241011/
+cat curl -s ifconfig.me > Filtro_Avanzado.txt
+curl -s ifconfig.me > Filtro_Avanzado.txt
+ls -l
+cat Filtro_Avanzado.txt
+rm Filtro_Avamzado.txt
+rm Filtro_Avanzado.txt
+cat "P publica es " curl -s ifconfig.me > Filtro_Avanzado.txt
+"P publica es " curl -s ifconfig.me > Filtro_Avanzado.txt
+cat "Mi P publica es " > Filtro_Avanzado.txt 
+echo "Mi IP publica es " >> Filtro_Avanzado
+cat Filtro_Avanzado
+curl -s ifconfig.me >> Filtro_Avanzado.txt
+cat Filtro_Avanzado
+cat Filtro_Avanzado.txt
+rm Filtro_Avanzado.txt
+echo "Mi IP publica es " >> Filtro_Avanzado.txt
+curl -s ifconfig.me >> Filtro_Avanzado.txt
+cat Filtro_Avanzado.txt
+echo " 181.24.24.238" >> Filtro_Avanzado.txt
+cat Filtro_Avanzado.txt
+cd ..
+cd RTA_SCRIPT_Examen_20241011/
+vim Punto_F.sh
+echo "Mi usuario es: " >> Filtro_Avanzado.txt, whoami >> Filtro_Avanzado.txt
+cat Filtro_Avanzado.txt
+whoami
+cat Filtro_Avanzado.txt
+rm Filtro_Avanzado.txt
+cat grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+grep vangrant /etc/shadow | awk -F ':' '{print $2}'
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+sudo grep pepe /etc/shadow | awk -F ':' '{print $2}' >> Filtro_Avanzado.txt, 
+cat Filtro_Avanzado.txt, 
+cat Filtro_Avanzado.txt
+sudo grep pepe /etc/shadow | awk -F ':' '{print $2}' >> Filtro_Avanzado.txt
+cat Filtro_Avanzado.txt
+grep pepe /etc/shadow | awk -F ':' '{print $2}' >> Filtro_Avanzado.txt
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}' >> Filtro_Avanzado.txt
+cat Filtro_Avanzado.txt
+sudo echo "El Hash de mi usuario es: " >> Filtro_Avanzado.txt | grep vagrant /etc/shadow | awk -F ':' '{print $2}' >> Filtro_Avanzado.txt
+git remote get-url origin 
+ls -l
+rmFiltro_Avanzado.txt
+rm Filtro_Avanzado.txt
+rm Filtro_Avanzado.txt,
+vim Punto_F.sh
+chmod 764 Punto_F.sh
+ls -l
+git add .
+git commin -m "Punto F terminado"
+git push
+git add .
+git commit -m "Punto F terminado"
+git push
+vim Punto_F.sh
+exit
+sudo apt install tree
+sudo apt update
+sudo apt install git
+sudo apt install tree
+mk dir repogit
+mkdir repogit
+ls -l
+cd ..
+cd 
+rmdir repogit
+ls -l
+cd ..
+mkdir repogit
+sudo mkdir repogit
+ls -l
+cd repogit/
+git clone git@github.com:upszot/UTN-FRA_SO_Examenes.git
+sudo git clone git@github.com:upszot/UTN-FRA_SO_Examenes.git
+ls -l
+git clone git@github.com:upszot/UTN-FRA_SO_Examenes.git
+sudo git clone git@github.com:upszot/UTN-FRA_SO_Examenes.git
+cd ..
+cd
+mkdir repogit
+cd repogit/
+git clone git@github.com:upszot/UTN-FRA_SO_Examenes.git
+bash #!/bin/bashvim Punto_A.sh
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_-Seggiaro-/
+ls -l
+cat <<FIN>> README.md
+# UTNFRA_SO_1P2C_2024_<Seggiaro>
+Nombre: Agustina
+Apellido: Seggiaro
+Legajo: 11381
+División: 113 
+FIN
+
+cat README.md
+history -a $HOME/.bash_history
+git add .
+git commit -m "Partcial finalizado"
+git push 
+vim README.md
+git add .
+git commit -m "Parcial terminado"
+git push
+ls -l
+cd RTA_ARCHIVOS_Examen_20241011/
+ls -l
+rm Filtro_Avanzado
+rm Filtro_Avanzado.txt 
+rm Filtro_Basico.txt 
+cd ..
+ls -la $HOME
+history -a $HOME/.bash_history
